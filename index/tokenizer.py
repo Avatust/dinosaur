@@ -1,4 +1,7 @@
 # the tokenize function will extract tokens
+import re
+
+regex = re.compile("[\w._-]+")
 
 def tokenize(text):
-  pass
+  return regex.finditer(text)
