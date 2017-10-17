@@ -6,11 +6,11 @@ class FileIndexer():
   def __init__(self, path_to_index):
     self.loadIndex(path_to_index)
   
-  def lookUp(self, ID):
+  def lookUp(self, fileID):
     return "filepath"
   
-  def addEntry(self, word, fileID):
-    pass
+  def addEntry(self, filePath):
+    return 'newFileID'
   
   def loadIndex(self, path_to_index):
     #load index to memory
